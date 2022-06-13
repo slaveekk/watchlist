@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your watchlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+        <header>
+            <input type="checkbox" id="toggle-button" class="toggle-button">
+            <h1>My watchlist</h1>
+            <a id="watchlist-link" href="index.html">Search movies</a>
+        </header>
+        <main role="main">
+            <div id="initial-main">
+                <h3>Your watchlist is looking a little empty...</h3>
+                <a href="/index.html">
+                    <img src="icons/save-icon.png">
+                    <p>Let’s add some movies!</p>
+                </a>
+            </div>
+            <div id="populated-main">  
+            </div> 
+        </main>
+        <script type="module" src="watchlist.js"></script>
+  </body>
+</html>
